@@ -1,0 +1,24 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "7bb1ba49ddff417c4a5342f244ad9a49"
+name = "test-vp "
+handle = "test-vp"
+application_url = "https://arriving-moved-albacore.ngrok-free.app"
+embedded = true
+
+[build]
+dev_store_url = "test-ses-dkd.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+
+[webhooks]
+api_version = "2024-07"
+
+[pos]
+embedded = false

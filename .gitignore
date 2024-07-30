@@ -3,7 +3,7 @@
 ## Dev only files and folders
 # _developer/
 database/
-shopify.*.toml
+
 
 # dependencies
 package-lock.json
@@ -33,8 +33,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
-.env
+
 
 # vercel
 .vercel

@@ -3,7 +3,7 @@ const AppBridgeProvider = ({ children }) => {
     const shop = window?.shopify?.config?.shop;
 
     if (!shop) {
-      return <p>No Shop Provided</p>;
+     return <>No Shop Provided</>;
     }
   }
 
